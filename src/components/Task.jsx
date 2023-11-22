@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button, FormCheck } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 function Task({ text, completed, deleteTask, toggleTask }) {
   return (
     <div>
-      <FormCheck type="checkbox" checked={completed} onChange={toggleTask} />
+      <input type="checkbox" checked={completed} onChange={toggleTask} />
       <span style={{ textDecoration: completed ? "line-through" : "none" }}>
         {text}
       </span>

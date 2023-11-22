@@ -42,7 +42,10 @@ form {
 }
 span {
   display: inline-block;
+  font-size: 25px;
+  margin: 0 20px;
 }
-button {
-  margin-left: 10px;
+
+input {
+  display: inline-block;
 }
