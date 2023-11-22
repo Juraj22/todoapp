@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center; /* Centrira tekstualne elemente */
 }
 
 .App-logo {
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+form {
+  width: 400px;
+  margin: 2px auto;
+}
+span {
+  display: inline-block;
+}
+button {
+  margin-left: 10px;
 }
