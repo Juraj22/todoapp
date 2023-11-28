@@ -1,5 +1,7 @@
 .App {
-  text-align: center; /* Centrira tekstualne elemente */
+  text-align: center;
+  height: 100vh;
+  background-color: aliceblue;
 }
 
 .App-logo {
@@ -48,4 +50,33 @@ span {
 
 input {
   display: inline-block;
+}
+li {
+  background-color: rgb(227, 220, 255);
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 20px;
+  border-radius: 40%;
+  padding: 0 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: red;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+button:hover {
+  background-color: brown;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+li:hover {
+  background-color: aquamarine;
 }
